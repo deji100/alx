@@ -1,0 +1,12 @@
+>>> from doc1 import my_function
+
+>>> my_function(2, 3) #doctest: +NORMALIZE_WHITESPACE
+6 
+
+and string
+
+>>> my_function('a', 3)
+'aaa'
+
+>>> my_function(3, 3)
+9
